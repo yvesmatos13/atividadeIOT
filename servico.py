@@ -24,7 +24,7 @@ class servico():
 
             stamptime = longdate[11:19]
 
-            conexao(iot).iotDS().insert_one(dict)
+            #conexao(iot).iotDS().insert_one(dict)
 
             print('===============',iot,'=====================')
             print('Current temperature....',str(temperature)+'°C')
