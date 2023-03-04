@@ -1,5 +1,7 @@
 FROM python:3
 
+EXPOSE 443
+
 WORKDIR /usr/src/app
 
 COPY requirements.txt ./
