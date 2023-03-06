@@ -1,6 +1,6 @@
-FROM ubi8/s2i-base:rhel8.7
+FROM rhel8/python-39
 
-EXPOSE 8080
+EXPOSE 443
 
 WORKDIR /usr/src/app
 
